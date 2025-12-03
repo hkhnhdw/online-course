@@ -6,7 +6,7 @@
 class Database
 {
     private $host = 'localhost';
-    private $db_name = 'onlinecourse';
+    private $db_name = 'cnweb';
     private $user = 'root';
     private $password = '';
     private $charset = 'utf8mb4';
