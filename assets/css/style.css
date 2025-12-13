@@ -1,0 +1,456 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-left: 30%;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 380px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.login-container form input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 16px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.login-container form input:focus {
+    border-color: #8d8d8d;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
+}
+
+.login-container button {
+    width: 100%;
+    padding: 14px;
+    background: #5a5a5a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.login-container button:hover {
+    background: #444444;
+}
+
+
+.login-container {
+    width: 380px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.login-container form input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 16px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.login-container form input:focus {
+    border-color: #8d8d8d;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
+}
+
+.login-container button {
+    width: 100%;
+    padding: 14px;
+    background: #5a5a5a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.login-container button:hover {
+    background: #444444;
+}
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #ececec;
+    border-right: 1px solid #d4d4d4;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.06);
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 14px;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 12px 16px;
+    font-size: 15px;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.sidebar ul li a:hover {
+    background: #a5a4a4;
+}
+
+.sidebar ul li a.active {
+    background: #dcdcdc;
+    font-weight: 600;
+}
+
+.content h2 {
+    font-size: 26px;
+    color: #333333;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.content button {
+    padding: 12px 18px;
+    background: #5f5f5f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.25s;
+}
+
+.content button:hover {
+    background: #494949;
+}
+
+table {
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 0;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+table th {
+    background: #e4e4e4;
+    padding: 14px;
+    text-align: left;
+    font-weight: 600;
+    color: #333333;
+    font-size: 15px;
+}
+
+table td {
+    padding: 14px;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 15px;
+    color: #333333;
+}
+
+table tr:hover {
+    background: #f4f4f4;
+}
+
+table td button,
+table td a {
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: 0.25s;
+    display: inline-block;
+}
+
+table td button {
+    background: #6d6d6d;
+    color: white;
+    border: none;
+}
+
+table td button:hover {
+    background: #555555;
+}
+
+table td a {
+    background: #d3d3d3;
+    color: #333333;
+}
+
+table td a:hover {
+    background: #bbbbbb;
+}
+
+table td a[href*="delete"] {
+    background: #c35c5c;
+    color: white;
+}
+
+table td a[href*="delete"]:hover {
+    background: #a64646;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.45);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #ffffff;
+    width: 440px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    animation: showModal 0.25s ease-out;
+    overflow-y: auto;
+}
+
+@keyframes showModal {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.modal-content h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.modal-content input,
+.modal-content textarea,
+.modal-content select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    border: 1px solid #d0d0d0;
+    font-size: 15px;
+    outline: none;
+}
+
+.modal-content input:focus,
+.modal-content textarea:focus,
+.modal-content select:focus {
+    border-color: #8d8d8d;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
+}
+
+.modal-content button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #5a5a5a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.modal-content button[type="submit"]:hover {
+    background: #444444;
+}
+
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    color: #555555;
+    transition: 0.2s;
+}
+
+.close:hover {
+    color: #222222;
+}
+
+.content p a {
+    color: #5a5a5a;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.25s;
+}
+
+.content p a:hover {
+    color: #3a3a3a;
+}
+
+.lessons-table {
+    width: 95%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.lessons-table th {
+    background: #e4e4e4;
+    padding: 14px;
+    text-align: left;
+    font-weight: 600;
+    color: #333333;
+    font-size: 15px;
+}
+
+.lessons-table td {
+    padding: 14px;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 15px;
+    color: #333333;
+}
+
+.lessons-table tr:hover {
+    background: #f4f4f4;
+}
+
+.lessons-table td button,
+.lessons-table td a {
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: 0.25s;
+    display: inline-block;
+}
+
+.lessons-table td button {
+    background: #6d6d6d;
+    color: white;
+    border: none;
+}
+
+.lessons-table td button:hover {
+    background: #555555;
+}
+
+.lessons-table td a {
+    background: #d3d3d3;
+    color: #333333;
+}
+
+.lessons-table td a:hover {
+    background: #bbbbbb;
+}
+
+.lessons-table td a[href*="delete"] {
+    background: #c35c5c;
+    color: white;
+}
+
+.lessons-table td a[href*="delete"]:hover {
+    background: #a64646;
+}
+
+#lessonModal .modal-content {
+    width: 480px;
+}
+
+#lessonModal label {
+    font-size: 14px;
+    color: #444444;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#lessonModal input,
+#lessonModal textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    border: 1px solid #d0d0d0;
+    font-size: 15px;
+    outline: none;
+}
+
+#lessonModal input:focus,
+#lessonModal textarea:focus {
+    border-color: #8d8d8d;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
+}
+
+#lessonModal button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #5a5a5a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#lessonModal button[type="submit"]:hover {
+    background: #444444;
+}
